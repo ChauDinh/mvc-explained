@@ -1,0 +1,21 @@
+{
+  "name": "mvc-explained",
+  "version": "1.0.0",
+  "description": "An explaination of MVC ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server:watch": "nodemon server.js"
+  },
+  "author": "Chau Dinh <chaudvb95uc@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
