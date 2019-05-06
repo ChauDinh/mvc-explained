@@ -25,6 +25,6 @@ app.get("/render", (req, res) => {
 
 app.get("/json", (req, res) => {
   res.sendFile(path.resolve(__dirname, "views", "still_a_view.json"));
-})
+});
 
 module.exports = app;
