@@ -8,6 +8,7 @@
 
 const MyModel = (foo, createdAt) => {
   return {
-    foo, createdAt
+    foo, 
+    createdAt
   };
 };
